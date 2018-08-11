@@ -1,0 +1,77 @@
+.right_3{
+    height: 100%;
+    background-color: #ededed;
+}
+.trainSituation{
+    background-color: #323e4d;
+    border-radius: 6px;
+    color: #fff;
+    height: 37px;
+    line-height: 37px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.trainDetails{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.trainDetails tr{
+    height: 87px;
+    border: 0;
+}
+.trainDetails tr>td{
+    color: #8d8d8d;
+    text-align: center;
+}
+.trainDetails a{
+    color: red;
+}
+.trainDetails img{
+    vertical-align: middle;
+}
+.trainDetails tr:nth-child(even){
+    background-color: #ebebeb;
+}
+.trainBack{
+    background-color: #32314c;
+}
+.trainImgLeft{
+    float: left;
+}
+.trainImgRight{
+    float: right;
+}
+.classHour{
+    font-size: 13px;
+    float: left;
+}
+.classHour span{
+    color: red;
+    font-size: 13px;
+}
+.standardClass{
+    font-size: 13px;
+    float: right;
+}
+.standardClass span{
+    font-size: 13px;
+    color: red;
+}
+.trainingDeadline p{
+    font-size: 13px;
+    float: left;
+}
+.trainingDeadline p span{
+    font-size: 13px;
+    color: red;
+}
+.commonClass{
+    font-size: 13px;
+    float: right;
+}
+.commonClass span{
+    font-size: 13px;
+    color: red;
+}

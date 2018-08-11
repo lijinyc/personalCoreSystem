@@ -1,0 +1,224 @@
+/*right 开始*/
+.dataInformation {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 434px;
+    text-align: center;
+    width: 300px;
+    *height:423px;
+}
+.dataInformation img {
+    margin-top: 19px;
+}
+.name {
+    font-size: 20px;
+    line-height: 3;
+}
+.completeRate {
+    background-color: #32314c;
+    color: #fff;
+    height: 60px;
+    margin-top: 22px;
+    padding-top: 11px;
+    cursor: pointer;
+    *margin-top: 22px;
+}
+.train {
+    background-color: #32314c;
+    color: #fff;
+    height: 47px;
+    margin-top: 3px;
+    padding-top: 13px;
+    width: 149px;
+    cursor: pointer;
+    float: left;
+}
+.examination {
+    background-color: #32314c;
+    color: #fff;
+    height: 47px;
+    margin-left: 151px;
+    margin-top: -60px;
+    padding-top: 13px;
+    width: 149px;
+    cursor: pointer;
+    float: right;
+}
+.notice {
+    height: 275px;
+    overflow: auto;
+}
+.noticeBrows {
+    background-color: #c51d1d;
+    color: #fff;
+    height: 30px;
+    padding-top: 5px;
+    line-height: 30px;
+}
+.circleIco{
+    float: left !important;
+    margin-left: 30px;
+    margin-right: 14px !important;
+    *margin-top: 10px !important;
+}
+.noticeBrows span {
+    background-color: #fff;
+    border-radius: 16px;
+    display: inline-block;
+    height: 12px;
+    margin-left: 30px;
+    margin-right: 14px;
+    width: 12px;
+}
+.noticeBrows img {
+    margin-right: 12px;
+    margin-top: 8px;
+    float: right;
+    cursor: pointer;
+    *margin-top:-21px;
+}
+.notice li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    color: #404040;
+    line-height: 38.5px;
+    padding: 0 0 0 10px;
+}
+.notice ul {
+    color: #444;
+}
+.notice ul span {
+    float: right;
+    padding-right: 15px;
+}
+.notice ul a {
+    color: #444;
+}
+.curriculum {
+    clear: both;
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.recentClassBrows {
+    background-color: #c51d1d;
+    color: #fff;
+    height: 30px;
+    padding-top: 5px;
+    line-height: 30px;
+}
+.recentClassBrows img {
+    margin-left: 30px;
+    margin-right: 14px;
+}
+.arrow {
+    float: right;
+    margin-top: 8px;
+    *margin-top:-23px;
+}
+.table {
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+.table tr {
+    border: 1px solid #ccc;
+    line-height: 38.5px;
+}
+.table tr td{
+    *border-top:1px solid #ccc;
+    *border-bottom:1px solid #ccc;
+}
+.tableButton p {
+    background-color: #ff702a;
+    color: #fff;
+    display: inline-block;
+    height: 28px;
+    line-height: 2;
+    margin-top: -1px;
+    width: 49px;
+    *display: block;
+}
+.tableButton a{
+    color: #fff;
+}
+.contentTop {
+    margin-left: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+.aLeft {
+    float: left;
+    display: inline-block;
+}
+.aRight {
+    margin-left: 315px;
+}
+.rightTop{
+    margin-left: 70px;
+}
+.tobyDate{
+    margin-top: 7px;
+}
+.tobyDateLeft{
+    border: 1px solid #ff4701;
+    background-color: #ff4701;
+    height: 151px;
+    width: 220px;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+
+.toby{
+    border-bottom: 2px solid #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.month{
+    font-size: 50px;
+    font-family: "Lucida Sans Unicode"
+}
+.year{
+    font-size: 20px;
+    margin-top: -10px;
+    *margin-top: 0px;
+}
+.tobyRecordRight{
+    margin-left: 235px;
+    height: 153px;
+}
+.tdRecordWord{
+    text-align: left;
+    padding-left: 15px;
+}
+.tdRecordImg{
+    text-align: right;
+    padding-right: 15px;
+}
+.tdRecordImg img{
+    margin-left: 15px;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    cursor: pointer;
+}
+.tobyRecordRight table{
+    float: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: 0px;
+    color: #404040;
+    line-height: 34px;
+    padding: 0 0 0 10px;
+    overflow: auto;
+}
+.tobyRecordRight table tr{
+    border: 1px solid #ccc;
+    line-height: 38.5px;
+}

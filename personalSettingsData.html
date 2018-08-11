@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">个人设置  基本资料</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/examinationCenter.css">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+    <link rel="stylesheet" type="text/css" href="styles/personalSettingsData.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.placeholder.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="middle">
+        <div class="right_3 rightSeat">
+            <!--眉头-->
+            <div class="brows">
+                <img src="images/2_1.png">
+                <span>个人中心 > 个人设置 > 基本资料</span>
+            </div>
+            <!--中间内容-->
+            <div class="content">
+                <!--个人情况-->
+                <div class="personalSituation" style="width: 369px;">
+                    <a href="personalSettingsData.html"><img src="images/5_7.png" style="float: left"></a>
+                    <a href="personalSettingsNewPassword.html"><img src="images/5_8.1.png" style="float: left"></a>
+                    <a href="personalSettingsSecurity.html"><img src="images/5_9.1.png" style="float: left"></a>
+                </div>
+                <form class="formValidation">
+                    <div class="specificLeft">
+                        <table>
+                            <colgroup>
+                                <col width="100">
+                                <col width="500">
+                            </colgroup>
+                            <tr>
+                                <td class="tdWord">所属集团：</td>
+                                <td class="tdContent">互联天下</td>
+                                <td rowspan="7" width="300px;">
+                                    <div class="specificRight">
+                                        <div>头像</div>
+                                        <div class="upImg">
+                                            <a href="#">
+                                                <div class="uploadPictures">
+                                                    <p>上传头像</p>
+                                                </div>
+                                                <img src="images/3_2.png" class="previewer">
+                                                <input class="upLoad dataUp" type="file">
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>用户名称：</td>
+                                <td class="tdContent">用户名称</td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>真实姓名：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的真实姓名"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord">昵称：</td>
+                                <td class="tdContent"><input placeholder="请输入您的昵称"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>性别：</td>
+                                <td class="tdContent">
+                                    <input type="radio" name="radio" checked style="width: 20px;">男
+                                    <input type="radio" name="radio" style="width: 20px;">女
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>身份证：</td>
+                                <td class="tdContent">42859659656563653</td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>单位名称：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的单位名称"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>现任职务：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的现任职务"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>详细地址：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的详细地址"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>邮编：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的邮编"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>联系电话：</td>
+                                <td class="tdContent"><input class="validate[required[email],custom[phone]] text-input" placeholder="请输入您的联系电话"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>手机：</td>
+                                <td class="tdContent"><input class="validate[required[email],custom[phone]] text-input" placeholder="请输入您的手机号码"></td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>所在地区：</td>
+                                <td class="tdContent localArea">
+                                    <select class="validate[required]">
+                                        <option>北京</option>
+                                    </select>
+                                    <select class="validate[required]">
+                                        <option>北京</option>
+                                    </select>
+                                    <select class="validate[required]">
+                                        <option>海淀</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdWord"><span>*</span>保密邮箱：</td>
+                                <td class="tdContent"><input class="validate[required[email]] text-input" placeholder="请输入您的邮箱"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><button type="submit">保存</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+     <div class="left">
+            <div class="logo">
+                <a href="personalCenter.html"><img src="images/logo.png"></a>
+            </div>
+         <div class="menu">
+             <ul>
+                 <li name="grzx">
+                     <a href="personalCenter.html" class='menu-title'>
+                         <img src="images/1_1.png">
+                         <span>个人中心</span>
+                     </a>
+                 </li>
+                 <li name="zxxk">
+                     <a href="lineCourse.html" class='menu-title'>
+                         <img src="images/1_2.png">
+                         <span>在线选课</span>
+                     </a>
+                 </li>
+                 <li name="wdpx">
+                     <a href="myTraining.html" class='menu-title'>
+                         <img src="images/1_3.png">
+                         <span>我的培训</span>
+                     </a>
+                 </li>
+                 <li name="kszx">
+                     <a href="notExaminationCenter.html" class='menu-title'>
+                         <img src="images/1_4.png">
+                         <span>考试中心</span>
+                     </a>
+                 </li>
+                 <li name="wdzs">
+                     <a href="myCertificate.html" class='menu-title'>
+                         <img src="images/1_5.png">
+                         <span>我的证书</span>
+                     </a>
+                 </li>
+                 <li name="tzgg">
+                     <a href="noticeNotice.html" class='menu-title'>
+                         <img src="images/1_6.png">
+                         <span>通知公告</span>
+                     </a>
+                 </li>
+                 <li name="grsz">
+                     <a href="personalSettingsData.html" class='menu-title'>
+                         <img src="images/1_7.png">
+                         <span>个人设置</span>
+                     </a>
+                 </li>
+                 <li name="grzh">
+                     <a href="individualAccount.html" class='menu-title'>
+                         <img src="images/1_8.png">
+                         <span>个人账户</span>
+                     </a>
+                 </li>
+                 <li name="zx">
+                     <a href="" class='menu-title'>
+                         <img src="images/1_11.png">
+                         <span>注销</span>
+                     </a>
+                 </li>
+             </ul>
+         </div>
+        </div>
+
+    <script>
+        $(function () {
+            selectMenu('grsz');
+            //让input、textarea中的placeholder支持IE
+            $('input,textarea').placeholder({customClass:'my-placeholder'});
+        });
+    </script>
+    </div>
+    <div class="footer button">
+         版权所有：互联天下 2016
+    </div>
+    <script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+    <script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+    <script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+    </body>
+    </html>
+

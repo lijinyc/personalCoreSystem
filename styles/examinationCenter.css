@@ -1,0 +1,51 @@
+.tableButtonExam  p{
+    background-color: #ff702a;
+    height: 33px;
+    line-height: 33px;
+    width: 62px;
+    display: inline-block;
+}
+.tableButtonExam a{
+    color: #fff;
+}
+.clickSee{
+    width: 67px;
+}
+.trainDetails>table{
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.trainSituation{
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.trainSituation span{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.trainSituation>a{
+    color: #fff;
+}
+.stayLearn{
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    float: left;
+    width: 105px;
+}
+.alreadyLearn{
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    width: 105px;
+}
+.trainSituationBack{
+    background-color:#c51d1d ;
+}

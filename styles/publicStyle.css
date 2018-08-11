@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+}
+
+a, input, select, textarea {
+    text-decoration: none;
+    outline: none;
+}
+button {
+    outline: none;
+    outline: 0;
+    filter: chroma(color=#000000);
+}
+
+img {
+    border: 0 none;
+}
+
+/*布局开始*/
+
+body {
+    min-width: 1200px;
+}
+
+.header,
+.footer {
+    border: 1px solid #333;
+    background: #aaa;
+    text-align: center;
+}
+
+.left,
+.middle {
+    position: relative;
+    float: left;
+}
+
+.container {
+    padding: 0 0px 0 200px;
+    overflow: hidden;
+}
+
+.left {
+    margin-left: -100%;
+    left: -200px;
+    width: 270px;
+    background: #c51d1d;
+}
+
+.middle {
+    width: 100%;
+    background: #ebebeb;
+    word-break: break-all;
+}
+
+.footer {
+    clear: both;
+}
+
+/*布局结束*/
+
+/*left 开始*/
+.logo {
+    background-color: #fdcca3;
+    height: 59px;
+    text-align: center;
+}
+
+.logo img {
+    margin-top: 11px;
+}
+
+.menu ul {
+    line-height: 30px;
+    color: #fff;
+}
+.menu li {
+    padding-left: 37px;
+    cursor: default;
+}
+.menu li a{
+    cursor: pointer;
+}
+.subMenu li {
+    font-size: 13px;
+    margin-left: -38px;
+    background-color: #d14747;
+    padding-left: 53px;
+    height: 30px;
+}
+
+.selected {
+    background-color: rgb(135, 23, 31);
+}
+
+.selectedArrow span {
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #ebebeb;
+    border-top: 8px solid transparent;
+    bottom: 0;
+    margin: auto;
+    *margin:5px auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+}
+
+.menu-title {
+    color: #fff;
+}
+
+.selectedArrow {
+    float: right;
+    height: 30px;
+    position: relative;
+    width: 30px;
+    top: 0;
+    *top: 2px;
+}
+/*left 结束*/
+
+
+/*right开始*/
+.content{
+    background-color: #fff;
+    margin-top: 15px;
+    padding-top: 10px;
+    /*overflow: auto;*/
+}
+.brows {
+    background-color: #c51d1d;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}
+
+.brows img {
+    margin-left: 30px;
+    margin-right: 14px;
+    vertical-align: text-bottom;
+}
+.rightSeat{
+    margin-left: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*margin-right: 15px;*/
+}
+/*right结束*/
+
+/*bottom开始*/
+.button {
+    background-color: #130303;
+    color: #fff;
+    font-size: 14px;
+    height: 34px;
+    line-height: 2;
+}
+
+/*bottom结束*/
+
+/*分页开始*/
+.paging {
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+.paging ul {
+    /*border: 1px solid #ccc;*/
+    border-right: 0;
+    border-radius: 4px;
+    /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);*/
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 474px;
+}
+
+.paging li {
+    display: inline;
+}
+
+.paging a {
+    /*border-right: 1px solid #ccc;*/
+    padding: 6px 15px;
+    color: #08c;
+    float: left;
+}
+
+.pagingClickBack {
+    background-color: #327ab7;
+    color: #fff !important;
+}
+
+/*分页结束*/
+
+/*input 中的placeholder支持IE*/
+.my-placeholder { color: #aaa; }

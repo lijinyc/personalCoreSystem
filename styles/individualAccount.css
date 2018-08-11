@@ -1,0 +1,138 @@
+.balanceCondition {
+    margin-left: 40px;
+    height: 86px;
+    padding-top: 30px;
+}
+
+.balanceLeft {
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.balanceLeft span {
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
+
+.account {
+    margin-left: 40px;
+}
+
+.balanceRight {
+    float: right;
+    margin-right: 30px;
+    margin-top: -30px;
+}
+
+.balanceRight a {
+    color: #fff;
+}
+
+.balanceRight p {
+    background-color: #ff702a;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 20px;
+    text-align: center;
+    width: 110px;
+}
+
+.accountAndTime {
+    height: 70px;
+    margin: 0;
+}
+
+.timeRight {
+    float: right;
+    margin-right: 30px;
+    margin-top: -31px;
+}
+
+.timeRight button {
+    background-color: #ff702a;
+    border: 1px solid #ff702a;
+    color: #fff;
+    margin-left: -6px;
+    width: 47px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.accountTable tr {
+    height: 10px;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+
+.accountTable td {
+    color: #8d8d8d;
+}
+
+.accountTable td > a {
+    color: red;
+}
+
+.accountDetails table {
+    background-color: #fff;
+    border-collapse: collapse;
+    line-height: 2;
+    text-align: center;
+}
+
+.accountDetails {
+    margin-left: 10px;
+    margin-right: 10px;
+    *margin-top: 30px;
+}
+
+.timeSeat {
+    cursor: pointer;
+    margin-bottom: -5px;
+    height: 21px;
+    width: 23px;
+}
+
+.individualPopup table tr td{
+
+    line-height: 3;
+}
+.individualPopup table tr span{
+    color: red;
+}
+.individualPopup table tr td input{
+    width: 200px;
+}
+.individualPopup .continueLearning{
+    margin-left: 39%;
+    margin-top: 19px;
+}
+.individualPopup .key span{
+    margin-right: 35%;
+}
+.recharge table tr td{
+
+}
+.recharge table tr input{
+    width: 100px !important;
+}
+.recharge table{
+    margin-left: 13%;
+}
+.recharge .key{
+    margin-left: 94px;
+    width: 439px;
+}
+.recharge .continueLearning{
+    margin-left: 36%;
+}
+.recharge .key span{
+    margin-right: 32% !important;
+}
+.security select{
+    width: 200px;
+}

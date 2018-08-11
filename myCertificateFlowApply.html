@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">我的证书 申请证书</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/myCertificate.css">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+
+
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="middle">
+        <div class="right_3 rightSeat">
+            <!--眉头-->
+            <div class="brows">
+                <img src="images/2_1.png">
+                <span>个人中心 > 我的证书 > 申请证书</span>
+            </div>
+            <!--中间内容-->
+            <div class="content">
+                <!--申请证书-->
+                <div class="submitApply">
+                    <div class="applyBrows">
+                        <span>提交证书申请</span>
+                        <a href="myCertificate.html"> > >返回证书列表</a>
+                    </div>
+                    <div class="fillInData">
+                        您好，颁发证书需要您提供以下的个人真实资料，请再次确认您的个人资料(*为必填选项）
+                        <form class="formValidation">
+                            <div>
+                                <label>您的姓名：<span>*</span></label>
+                                <input class="validate[required[email]] text-input">
+                            </div>
+                            <div>
+                                <label>您的性别：<span>*</span></label>
+                                <select style="width:198px" class="validate[required]">
+                                    <option></option>
+                                    <option>女</option>
+                                    <option>男</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>身份证号：<span>*</span></label>
+                                <input type="text" class="validate[required,custom[chinaIdLoose]] text-input ">
+                            </div>
+                            <div class="yourPhoto">
+                                <label>您的照片：<span>*</span></label>
+                                <a href="#">
+                                    <img src="images/3_2.png">
+                                    <input type="file" class="upLoad">
+                                </a>
+                            </div>
+                            <div class="btn">
+                                <button type="submit" class="submitApplyBtn">提交申请</button>
+                                <button type="reset" class="cancel">取消</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="left">
+            <div class="logo">
+                <a href="personalCenter.html"><img src="images/logo.png"></a>
+            </div>
+         <div class="menu">
+             <ul>
+                 <li name="grzx">
+                     <a href="personalCenter.html" class='menu-title'>
+                         <img src="images/1_1.png">
+                         <span>个人中心</span>
+                     </a>
+                 </li>
+                 <li name="zxxk">
+                     <a href="lineCourse.html" class='menu-title'>
+                         <img src="images/1_2.png">
+                         <span>在线选课</span>
+                     </a>
+                 </li>
+                 <li name="wdpx">
+                     <a href="myTraining.html" class='menu-title'>
+                         <img src="images/1_3.png">
+                         <span>我的培训</span>
+                     </a>
+                 </li>
+                 <li name="kszx">
+                     <a href="notExaminationCenter.html" class='menu-title'>
+                         <img src="images/1_4.png">
+                         <span>考试中心</span>
+                     </a>
+                 </li>
+                 <li name="wdzs">
+                     <a href="myCertificate.html" class='menu-title'>
+                         <img src="images/1_5.png">
+                         <span>我的证书</span>
+                     </a>
+                 </li>
+                 <li name="tzgg">
+                     <a href="noticeNotice.html" class='menu-title'>
+                         <img src="images/1_6.png">
+                         <span>通知公告</span>
+                     </a>
+                 </li>
+                 <li name="grsz">
+                     <a href="personalSettingsData.html" class='menu-title'>
+                         <img src="images/1_7.png">
+                         <span>个人设置</span>
+                     </a>
+                 </li>
+                 <li name="grzh">
+                     <a href="individualAccount.html" class='menu-title'>
+                         <img src="images/1_8.png">
+                         <span>个人账户</span>
+                     </a>
+                 </li>
+                 <li name="zx">
+                     <a href="" class='menu-title'>
+                         <img src="images/1_11.png">
+                         <span>注销</span>
+                     </a>
+                 </li>
+             </ul>
+         </div>
+        </div>
+
+    <script>
+        $(function () {
+            selectMenu('wdzs');
+        });
+    </script>
+    </div>
+    <div class="footer button">
+         版权所有：互联天下 2016
+    </div>
+    <script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+    <script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+    <script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+    </body>
+    </html>
+

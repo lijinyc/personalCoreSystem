@@ -1,0 +1,48 @@
+.exhibition {
+    font-size: 0;
+    position: relative;
+}
+
+.serialNumberImg {
+    background-color: #000;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+    line-height: 30px;
+    opacity: 0.6;
+    filter: Alpha(opacity=60);
+}
+
+.serialNumberImg p {
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    position: relative;
+}
+
+.describe {
+    background-color: #000;
+    opacity: 0.6;
+    filter: Alpha(opacity=60);
+    bottom: 3px;
+    height: 30px;
+    left: 0;
+    line-height: 30px;
+    position: absolute;
+    right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    *zoom: 1;
+
+}
+
+.describeLeft {
+    float: left;
+    position: relative;
+}
+
+.describeRight {
+    float: right;
+    position: relative;
+}

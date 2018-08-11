@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">注册</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="headerCont">
+        <div class="headerLeft">
+            <img src="images/logo.png">
+        </div>
+        <div class="headerRight">
+            <p>已有账号？</p>
+            <a href="index.html"><img src="images/6_4.1.png"></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="middle">
+        <div class="loginPassInput">
+            <div class="fillInInput">
+                <form class="formValidation">
+                    <div class="fillInWord">
+                        <p class="fillInWordLeft">请认真填写您的注册信息</p>
+                        <p class="fillInWordRight"><span>声明：</span>本网依法尊重您的个人隐私，请放心填写您的个人真实资料！</p>
+                    </div>
+                    <div class="fillInAccount" style="margin-top: 70px;">
+                        <table>
+                            <tr>
+                                <td><span>*</span>用户名称：<input type="text" class="validate[required] text-input"></td>
+                                <td>
+                                    <p>5-20位，不区分大小写，限字母、数字、 </p>
+                                    <p style="margin-top: -23px;">下划线等组合，一旦注册成功会员名不能修改。</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><span>*</span>输入密码：<input class="validate[required] text-input" type="password"  id="password"></td>
+                                <td><span>请输入密码，密码长度为6-20位。</span></td>
+                            </tr>
+                            <tr>
+
+                                <td><span>*</span>确认密码：<input class="validate[required,equals[password]] text-input" type="password"  id="password2"></td>
+                                <td><span>请再次输入密码。</span></td>
+                            </tr>
+                            <tr>
+
+                                <td><span>*</span>密保邮箱：<input class="validate[required,custom[email]]"></td>
+                                <td><span>请正确填写您的常用电子邮件地址。</span></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="nextStep"><a href="registerTwo.html"><img src="images/7_1.2.png"></a></td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer button">
+     版权所有：互联天下 2016
+</div>
+<script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+<script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>
+

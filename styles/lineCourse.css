@@ -1,0 +1,205 @@
+.right_2 {
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.search {
+    border-bottom: 1px solid #ccc;
+    height: 49px;
+    line-height: 1;
+    padding-top: 15px;
+    overflow: auto;
+}
+
+.word {
+    float: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+.frame {
+    float: right;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    height: 28px;
+}
+
+.frame input {
+    border: 0;
+    height: 26px;
+    width: 195px;
+    line-height: 26px;
+}
+
+.frame button {
+    background-color: #ff702c;
+    border: 1px solid #ff702c;
+    color: #fff;
+    cursor: pointer;
+
+    height: 28px;
+
+    padding-top: 0;
+    width: 50px;
+}
+
+.trainType {
+    border-bottom: 1px solid #ccc;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: auto;
+    margin-top: 40px;
+}
+
+.trainType span {
+    float: left;
+    color: #999;
+    line-height: 34px;
+}
+
+.trainType a {
+    color: #000;
+}
+
+.liBack {
+    height: 18px;
+    background-color: red;
+    color: #fff !important;
+}
+
+.trainType li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-left: 27px;
+    padding: 5px;
+    text-align: center;
+}
+
+.trainType div {
+    background-color: #f10000;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    height: 26px;
+    line-height: 26px;
+    width: 53px;
+    text-align: center;
+}
+
+.trainType div img {
+    padding-left: 7px;
+}
+
+.administration {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.administration span {
+    border: 1px solid #ff702c;
+    color: #ff702c;
+    line-height: 4;
+    padding: 4px;
+    cursor: pointer;
+}
+.administration img{
+    vertical-align:middle ;
+}
+/*baseline unset inherit*/
+.trainCourse {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: auto;
+    clear: both;
+}
+.trainCourseContent {
+    margin:0 auto;
+}
+@media (min-width: 100px) {
+    .trainCourseContent {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .trainCourseContent {
+        width: 620px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .trainCourseContent {
+        width: 925px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .trainCourseContent {
+        /*width: 1570px;*/
+        width: 1554px;
+    }
+}
+
+.trainCourseContent ul:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.trainCourse li {
+    width: 223px;
+    float: left;
+    margin: 40px 40px 36px;
+    /*margin: 50px 40px 15px;*/
+    *margin: 40px 40px 0px;
+    cursor: default;
+}
+
+.trainInformation {
+    margin-top: 15px;
+    cursor: default;
+}
+
+.trainName {
+    float: left;
+    font-weight: 600;
+}
+
+.trainTime {
+    float: right;
+}
+
+.trainMoney {
+    margin-top: 51px;
+    cursor: default;
+}
+
+.signUpMoney {
+    float: left;
+}
+
+.signUpImmediately {
+    background-color: red;
+    border-radius: 4px;
+    color: #fff;
+    float: right;
+    height: 30px;
+    line-height: 35px;
+    text-align: center;
+    width: 80px;
+}
+
+.signUpImmediately a {
+    color: #fff;
+}
+
+
+.typefaceColor a {
+    color: #f10000;
+    cursor: pointer;
+}

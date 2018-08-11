@@ -1,0 +1,67 @@
+.contentReset{
+    background-color: #ededed;
+    padding-top: 0;
+}
+.contentLeft{
+    float: left;
+    background-color: #fff;
+    height: 633px;
+    text-align: left;
+    text-indent: 0.5cm;
+}
+.contentLeft li{
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 2;
+}
+.contentLeft li>a{
+    color: #000;
+}
+.selectedTriangle{
+    float: right;
+    height: 30px;
+    position: relative;
+    width: 30px;
+    *margin-top: -23px;
+    *margin-right: 3px;
+}
+.selectedTriangle>span {
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #ff702a;
+    border-top: 7px solid transparent;
+    bottom: 0;
+    height: 0;
+    margin: auto;
+    position: absolute;
+    right: -7px;
+    top: 0;
+    width: 0;
+    *border-bottom: 6px solid transparent;
+    *border-left: 6px solid #ff702a;
+    *border-top: 6px solid transparent;
+}
+.contentRight{
+    background-color: #fff;
+    border: 1px solid #fff;
+    height: 633px;
+    margin-left: 376px;
+}
+.noticeTitle{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 36px;
+    text-align: center;
+}
+.noticeContent{
+    line-height: 3;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-indent: 1cm;
+    color: #8b8b8b;
+}
+.selectedModifyStyle{
+    border-right: 2px solid #ff702a;
+}
+.selectedModifyStyle span{
+    color: #ff702a;
+}

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">个人账户 全部</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/personalCenter.css">
+    <link rel="stylesheet" type="text/css" href="styles/classroomPractice.css">
+    <link rel="stylesheet" type="text/css" href="styles/examinationCenter.css">
+    <link rel="stylesheet" type="text/css" href="styles/myCertificate.css">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+    <link rel="stylesheet" type="text/css" href="styles/personalSettingsData.css">
+    <link rel="stylesheet" type="text/css" href="styles/individualAccount.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.reveal.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.reveal.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="middle">
+        <div class="right_3 rightSeat">
+            <!--眉头-->
+            <div class="brows">
+                <img src="images/2_1.png">
+                <span>个人中心 > 个人账户 >全部</span>
+            </div>
+            <!--中间内容-->
+            <div class="content">
+                <div class="classSelection">账户余额:</div>
+                <div class="balanceCondition">
+                    <div class="balanceLeft">
+                        <span>17502.00</span>元
+                    </div>
+                    <div class="balanceRight">
+                        <a href="" class="big-link" data-reveal-id="recharge"><p>充值</p></a>
+                        <a href="" class="big-link" data-reveal-id="paymentPassword"><p>设置支付密码</p></a>
+                    </div>
+                </div>
+                <!--账户情况-->
+                <div class="accountAndTime">
+                    <div class="accountLeft">
+                        <div class="personalSituation account" style="width: 369px;">
+                            <a href="individualAccount.html"><img src="images/6_1.png" style="float:left;"></a>
+                            <a href="individualAccountIncome.html"><img src="images/6_2.1.png" style="float:left;"></a>
+                            <a href="individualAccountPay.html"><img src="images/6_3.1.png" style="float:left;"></a>
+                        </div>
+                    </div>
+                    <div class="timeRight">
+                        起始日期
+                        <img width="18" height="18" border="0" class="timeSeat"
+                             src="images/3_7.png" onclick="WdatePicker({el:'startTime',dateFmt:'yyyy-MM-dd'})">
+                        <input id="startTime" class="Inputbox" type="text" readonly="readonly" size="17"
+                               name="startTime" style="width: 103px;">
+
+                        ---结束日期
+                        <img width="18" height="18" border="0" class="timeSeat"
+                             src="images/3_8.png" onclick="WdatePicker({el:'endTime',dateFmt:'yyyy-MM-dd'})">
+                        <input id="endTime" class="Inputbox" type="text" readonly="readonly" size="17" name="endTime" style="width: 103px;">
+                        <button type="submit">搜索</button>
+                    </div>
+                </div>
+                <div class="accountDetails" style="*margin-top: 30px;">
+                    <table class="table accountTable">
+                        <tbody>
+                        <tr style=" background-color: #ebebeb;">
+                            <th>交易时间</th>
+                            <th>收支类型</th>
+                            <th>余额(元)</th>
+                            <th>金额(元)</th>
+                            <th>交易详情</th>
+                            <th>支付状态</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2016-3-2 12:00:59</td>
+                            <td>支出</td>
+                            <td>17502.00</td>
+                            <td>300</td>
+                            <td>报名缴费-行政管理培训</td>
+                            <td>支付成功</td>
+                            <td>
+                                <a href="">查看</a>
+                                <a href="">删除</a>
+                                <a href="">充值</a>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <!--分页-->
+                    <div>
+                        <div class="paging">
+                            <ul>
+                                <li><a href="#">首页</a></li>
+                                <li><a href="#">上一页</a></li>
+                                <li><a href="#" class="pagingClickBack">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">下一页</a></li>
+                                <li><a href="#">末页</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="left">
+        <div class="logo">
+            <a href="personalCenter.html"><img src="images/logo.png"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li name="grzx">
+                    <a href="personalCenter.html" class='menu-title'>
+                        <img src="images/1_1.png">
+                        <span>个人中心</span>
+                    </a>
+                </li>
+                <li name="zxxk">
+                    <a href="lineCourse.html" class='menu-title'>
+                        <img src="images/1_2.png">
+                        <span>在线选课</span>
+                    </a>
+                </li>
+                <li name="wdpx">
+                    <a href="myTraining.html" class='menu-title'>
+                        <img src="images/1_3.png">
+                        <span>我的培训</span>
+                    </a>
+                </li>
+                <li name="kszx">
+                    <a href="notExaminationCenter.html" class='menu-title'>
+                        <img src="images/1_4.png">
+                        <span>考试中心</span>
+                    </a>
+                </li>
+                <li name="wdzs">
+                    <a href="myCertificate.html" class='menu-title'>
+                        <img src="images/1_5.png">
+                        <span>我的证书</span>
+                    </a>
+                </li>
+                <li name="tzgg">
+                    <a href="noticeNotice.html" class='menu-title'>
+                        <img src="images/1_6.png">
+                        <span>通知公告</span>
+                    </a>
+                </li>
+                <li name="grsz">
+                    <a href="personalSettingsData.html" class='menu-title'>
+                        <img src="images/1_7.png">
+                        <span>个人设置</span>
+                    </a>
+                </li>
+                <li name="grzh">
+                    <a href="individualAccount.html" class='menu-title'>
+                        <img src="images/1_8.png">
+                        <span>个人账户</span>
+                    </a>
+                </li>
+                <li name="zx">
+                    <a href="index.html" class='menu-title'>
+                        <img src="images/1_11.png">
+                        <span>注销</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--设置支付密码（弹出框）-->
+    <div id="paymentPassword" class="reveal-modal individualPopup" style="border: 1px solid #c51d1d; width:453px; top: 207px;">
+        <div class='body'>
+            <form class="formValidation">
+                <table width="100%">
+                    <colgroup>
+                        <col width="80">
+                        <col width="100">
+                    </colgroup>
+                    <tr>
+                        <td><span>*</span>登&nbsp;&nbsp;&nbsp;录&nbsp;&nbsp;密&nbsp;&nbsp;码：</td>
+                        <td><input class="validate[required] text-input" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>设置支付密码：</td>
+                        <td><input class="validate[required] text-input" type="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>确认支付密码：</td>
+                        <td><input type="password" class="validate[required,equals[password]] text-input" id="password2"></td>
+                    </tr>
+                </table>
+                <div class="scoreButton">
+                     <span class="continueLearning">下一步</span>
+                </div>
+            </form>
+        </div>
+        <div class="close-reveal-modal popTit">
+            <div class='header key'>
+                <span>支付密码设置</span>
+                <a class="closePopup end" data-dismiss="modal">×</a>
+            </div>
+        </div>
+    </div>
+    <!--设置支付密码 下一步（弹出框）-->
+    <div id="security" class="reveal-modal individualPopup security" style="border: 1px solid #c51d1d; width:453px;top: 207px">
+        <div class='body'>
+            <form class="formValidation">
+                <table width="100%">
+                    <colgroup>
+                        <col width="80">
+                        <col width="100">
+                    </colgroup>
+                    <tr>
+                        <td><span>*</span>安全问题1：</td>
+                        <td>
+                            <select>
+                                <option>您的小学校名是什么？</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>问题答案：</td>
+                        <td><input class="validate[required[email]] text-input" placeholder="请输入您的答案"></td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>安全问题2：</td>
+                        <td>
+                            <select>
+                                <option>您的出生地是哪里？</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>问题答案：</td>
+                        <td><input class="validate[required[email]] text-input" placeholder="请输入您的答案"></td>
+                    </tr>
+                </table>
+                <div class="scoreButton">
+                    <span class="continueLearning">确定</span>
+                </div>
+            </form>
+        </div>
+        <div class="close-reveal-modal popTit">
+            <div class='header key'>
+                <span>密保设置</span>
+                <a class="closePopup end" data-dismiss="modal">×</a>
+            </div>
+        </div>
+    </div>
+    <!--重置支付密码（由于Id问题 后台开发时需要和前端沟通一下）-->
+    <div id="paymentPassword1" class="reveal-modal individualPopup" style="border: 1px solid #c51d1d; width:453px; top: 207px">
+        <div class='body'>
+            <form class="formValidation">
+                <table width="100%">
+                    <colgroup>
+                        <col width="80">
+                        <col width="100">
+                    </colgroup>
+                    <tr>
+                        <td><span>*</span>旧支付密码：</td>
+                        <td><input class="validate[required] text-input" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>新支付密码：</td>
+                        <td><input class="validate[required] text-input" type="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td><span>*</span>确认支付密码：</td>
+                        <td><input type="password" class="validate[required,equals[password]] text-input" id="password2"></td>
+                    </tr>
+                </table>
+                <div class="scoreButton">
+                    <span class="continueLearning">修改</span>
+                </div>
+            </form>
+        </div>
+        <div class="close-reveal-modal popTit">
+            <div class='header key'>
+                <span>支付密码设置</span>
+                <a class="closePopup end" data-dismiss="modal">×</a>
+            </div>
+        </div>
+    </div>
+    <div id="recharge" class="reveal-modal individualPopup recharge" style="border: 1px solid #c51d1d; width:359px; top: 207px">
+        <div class='body'>
+            <form class="formValidation">
+                <table width="77%">
+                    <colgroup>
+                        <col width="48">
+                        <col width="100">
+                    </colgroup>
+                    <tr>
+                        <td>用户账户：</td>
+                        <td>chenji33</td>
+                    </tr>
+                    <tr>
+                        <td>账户余额：</td>
+                        <td>0.00元（个人账户)</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" style="padding-left: 42px">0.00元（集团账户）</td>
+                    </tr>
+                    <tr>
+                        <td>充值类型：</td>
+                        <td>个人账户充值</td>
+                    </tr>
+                    <tr>
+                        <td>充值金额：</td>
+                        <td><input type="text" value="0.00 ">元</td>
+                    </tr>
+                    <tr>
+                        <td>支付方式:</td>
+                        <td><input type="radio" style="width: 30px !important;">支付宝</td>
+                    </tr>
+                </table>
+                <div class="scoreButton">
+                    <span class="continueLearning">修改</span>
+                </div>
+            </form>
+        </div>
+        <div class="close-reveal-modal popTit">
+            <div class='header key'>
+                <span>支付密码设置</span>
+                <a class="closePopup end" data-dismiss="modal">×</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            selectMenu('grzh');
+        });
+    </script>
+</div>
+<div class="footer button">
+    版权所有：互联天下 2016
+</div>
+<script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+<script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>
+

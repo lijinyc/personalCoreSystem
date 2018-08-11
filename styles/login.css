@@ -1,0 +1,309 @@
+.header {
+    border: 1px solid #fff117;
+    background: #fff117;
+    text-align: center;
+    height: 80px;
+    line-height: 2;
+}
+
+.container {
+    padding: 0 0px 0 0px !important;
+}
+
+.middle {
+    min-height: 130px;
+    width: 100%;
+    background: #c51d1d;
+    word-break: break-all;
+}
+
+.headerCont {
+    margin: 23px auto 0;
+    overflow: auto;
+    width: 1146px;
+}
+
+.headerLeft {
+    float: left;
+}
+
+.headerRight {
+    float: right;
+    margin-top: 8px;
+}
+
+.headerRight p{
+    float: left;
+    margin-right: 10px;;
+}
+.loginInpBack {
+    background: url("../images/6_5.png") no-repeat;
+    height: 533px;
+    margin: 0 auto;
+    /*width: 1342px;*/
+    width:1163px;
+}
+
+.inputBack {
+    background: url("../images/6_5.1.png") no-repeat;
+    width: 304px;
+    height: 344px;
+    float: right;
+    margin-top: 74px;
+    margin-right: 97px;
+}
+
+.inputSeat{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loginName {
+    background: url("../images/6_5.2.png") no-repeat;
+    width: 278px;
+    height: 42px;
+    margin-bottom: 23px !important;
+}
+
+.loginPassword {
+    background: url("../images/6_5.3.png") no-repeat;
+    width: 278px;
+    height: 42px;
+    margin-bottom: 23px !important;
+}
+
+.loginVerificationCode {
+    background: url("../images/6_5.4.png") no-repeat;
+    width: 278px;
+    height: 42px;
+    margin-bottom: 23px !important;
+}
+
+.loginVerificationCode input {
+    float: left;
+    margin-left: 0 !important;
+    width: 169px !important;
+}
+
+.inputBack input {
+    border-left: 1px solid #ccc;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    height: 34px;
+    line-height: 34px;;
+    margin-left: 46px;
+    margin-top: 3px;
+    width: 224px;
+}
+
+.inputBack p a{
+    color: red;
+    float: left;
+    margin-left: 13px;
+    margin-top: -13px;
+}
+
+.inputWord {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+/*忘记密码1*/
+.loginPassInput{
+    background: url("../images/6_5.8.png") no-repeat;
+    height: 533px;
+    margin: 0 auto;
+    /*width: 1342px;*/
+    width:1163px;
+}
+.passwordInput{
+    background: url("../images/6_5.7.png") no-repeat;
+    float: right;
+    height: 467px;
+    margin-right: 97px;
+    margin-top: 32px;
+    width: 960px;
+}
+
+.account{
+    margin-top: 100px;
+}
+.rebuildPass{
+    border-bottom: 2px solid #c51d1d;
+    height: 60px;
+    line-height: 3;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.rebuildWord{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.rebuildAccount{
+    text-align: center;
+    line-height: 7;
+}
+.rebuildAccount input{
+    width: 270px;
+   line-height: 26px;
+}
+.rebuildAccount span{
+    color: #c51d1d;
+}
+.rebuildEnsure{
+    text-align: center;
+    cursor: pointer;
+}
+/*忘记密码2*/
+.account table{
+    border-collapse: collapse;
+    line-height: 3;
+    margin: 30px auto 0;
+    width: 382px;
+
+}
+.account table tr td{
+    /*border: 1px solid;*/
+}
+.account table input{
+    width: 270px;
+}
+.account table span{
+    color: #c51d1d;
+}
+.tdWord{
+    text-align: right;
+}
+.tbImg{
+    text-align: center;
+    cursor: pointer;
+}
+.tbImg img{
+    margin-top: 30px;
+}
+
+/*注册1*/
+.fillInInput{
+    background: url("../images/7_1.1.png") no-repeat;
+    float: right;
+    height: 467px;
+    margin-right: 97px;
+    margin-top: 32px;
+    width: 960px;
+}
+.fillInWord{
+    height: 40px;
+    line-height: 3.5;
+    margin-left: 15px;
+    margin-right: 16px;
+}
+.fillInWordLeft{
+    float: left;
+    font-size: 17px;
+    font-weight: 600;
+    color: #000;
+}
+.fillInWordRight{
+    color: #999;
+    float: right;
+    font-size: 14px;
+}
+.fillInWordRight span{
+    color: #c51d1d;
+}
+.fillInAccount table{
+    border-collapse: collapse;
+    line-height: 3;
+    margin: 30px auto 0;
+    width: 663px;
+}
+.fillInAccount table tr td{
+    /*border: 1px solid;*/
+}
+.fillInAccount table input{
+    width: 270px;
+
+}
+.fillInAccount table span,p{
+    color: #c51d1d;
+    font-size: 14px;
+}
+.nextStep{
+    text-align: center;
+}
+.nextStep img{
+    margin-top: 50px;
+}
+/*注册2*/
+.registerInput{
+    background: url("../images/7_1.3.png") repeat-x;
+    float: right;
+    height: 842px;
+    margin-right: 97px;
+    margin-top: 32px;
+    width: 960px;
+}
+.registerInput select{
+    width: 98px;
+}
+.registerForm{
+    background: url("../images/7_1.4.png") no-repeat;
+    height: 908px;
+    margin: 0 auto;
+    width:1163px;
+}
+.verificationCode input{
+    width: 93px !important;
+}
+.verificationCode img{
+    vertical-align: middle;
+}
+.definitionClear{
+    font-size: 12px !important;
+    color: #000 !important;
+}
+.definitionClear a{
+    font-size: 12px;
+    color: #c51d1d;
+}
+
+.registerForm table{
+    width: 690px;
+}
+.registerForm table input{
+    width: 300px;
+}
+.registerForm table tr td{
+    line-height: 3.5;
+}
+.submitRegister{
+    margin-top: 100px;
+    text-align: center;
+}
+.submitRegister img{
+    margin-top: 50px;
+}
+.formErrorContent{
+    text-align: left !important;
+}
+/*注册  提示*/
+.cueWord{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.cueWord img{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.cue{
+    text-align: center;
+    line-height: 10;
+    color: #999;
+    font-size: 13px;
+}

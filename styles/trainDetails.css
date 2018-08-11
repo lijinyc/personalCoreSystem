@@ -1,0 +1,185 @@
+.trainBrows {
+    padding: 0px;
+    padding-bottom: 1px;
+}
+
+.trainInfo {
+    background-color: #182a34;
+    height: 174px;
+    color: #fff;
+}
+
+.trainInfoLeft {
+    height: 200px;
+    float: left;
+    width: 73%;
+}
+
+.trainInfoLeft > p {
+    font-size: 20px;
+    line-height: 5;
+    margin-left: 30px;
+}
+
+.trainInfoLeft > ul {
+    margin-left: 30px;
+}
+
+.trainInfoLeft > ul li {
+    border-right: 1px solid #2d3e48;
+    float: left;
+    height: 67px;
+    line-height: 2;
+    margin-top: -25px;
+    padding-top: 32px;
+    width: 116px;
+    cursor: default;
+    text-align: left;
+}
+
+.trainInfoRight {
+    float: left;
+    margin-left: 100px;
+    /*margin-top: 68px;*/
+}
+.trainInfoRight p {
+    background-color: #c51d1d;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 69px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+.trainInfoRight a {
+    color: #fff;
+}
+.studyPractice{
+    float: right;
+    line-height: 3;
+    margin-top: 20px;
+    margin-right: 20px;
+   *margin-top: 5px;
+}
+.studyPractice p{
+    *padding-top: 10px;;
+    *padding-bottom: 10px;;
+}
+.exhibitionInfo {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.introduceLeft {
+    float: left;
+    width: 45%;
+}
+
+.introduceLeft > div {
+    color: red;
+    font-weight: 600;
+    line-height: 4;
+}
+
+.introduceLeft > p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.introduceRight {
+    width: 45%;
+    float: right;
+}
+
+.introduceRight > div {
+    color: red;
+    font-weight: 600;
+    line-height: 4;
+}
+
+.introduceRight > p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.introduceFlow {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.curriculumList {
+    margin-top: 30px;
+}
+
+.listTitle {
+    color: red;
+    font-weight: 600;
+}
+
+.listImg {
+    float: left;
+}
+
+.listWord {
+    float: left;
+    line-height: 1.6;
+    margin-left: 10px;
+}
+
+.curriculumList ul {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.curriculumList ul  li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.fontWeight {
+    font-weight: 600;
+}
+
+.progress {
+    background-color: #756f71;
+    float: left;
+    height: 4px;
+    margin-left: 23px;
+    margin-top: 10px;
+    width: 130px;
+}
+
+.progressBar {
+    background: red;
+    height: 4px;
+    width: 10%;
+}
+
+.curriculumList li::after {
+    clear: both;
+    content: "";
+}
+
+.curriculumList li {
+    overflow: auto;
+    margin-top: 30px;
+    cursor: default;
+}
+
+.schedule {
+    flow: auto;
+    width: 500px;
+    height: 26px
+}
+.courseSchedule{
+    float: left;
+}
+.synopsis{
+    color: #8d8d8d;
+}
+.play{
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+

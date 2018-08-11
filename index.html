@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title id="title">登录</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles/publicStyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <link rel="stylesheet" type="text/css" href="styles/validationEngineJquery.css">
+
+    <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="scripts/public.js"></script>
+    <script type="text/javascript" src="scripts/jquery.placeholder.js"></script>
+</head>
+<!--style="min-width:1342px;"-->
+<body>
+<div class="header">
+    <div class="headerCont">
+        <div class="headerLeft">
+            <img src="images/logo.png">
+        </div>
+        <div class="headerRight">
+            <p>还没有注册？</p>
+            <a href="registerOne.html"><img src="images/6_4.png"></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="middle">
+        <div class="loginInpBack">
+            <div class="inputBack">
+                <form class="formValidation">
+                    <div class="inputWord inputSeat">用户登录</div>
+                    <div class="loginName inputSeat">
+                        <input placeholder="用户名" class="validate[required] text-input">
+                    </div>
+                    <div class="loginPassword inputSeat">
+                        <input class="validate[required] text-input"  type="password" placeholder="密码"/>
+                    </div>
+                    <div class="loginVerificationCode inputSeat">
+                        <input placeholder="验证码" style="float:left;" class="validate[required] text-input">
+                        <img src="images/6_5.5.png" style="float: right;">
+                    </div>
+                    <p><a href="forgetPasswordOne.html">忘记密码？</a></p>
+                    <div class="inputSeat" style="margin-top:65px;cursor: pointer;">
+                        <a href="personalCenter.html"><img src="images/6_5.6.png"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script>
+    $(function () {
+        //让input、textarea中的placeholder支持IE
+        $('input,textarea').placeholder({customClass:'my-placeholder'});
+    });
+</script>
+<div class="footer button">
+     版权所有：互联天下 2016
+</div>
+<script type="text/javascript" src="scripts/jquery-validationEngine-zh-CN.js"></script>
+<script type="text/javascript" src="scripts/jquery-validationEngine.min.js"></script>
+<script type="text/javascript" src="My97DatePicker/WdatePicker.js"></script>
+</body>
+</html>
+
+
